@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/static/css/styles.css" type="text/css">
+  </head>
+  <body>
+  	<h1 class="center-align">Random Word (attempt # {{ count }})</h1>
+  	<section class="box-display">
+  		{% if session['num'] != None %}
+  			<p class="big-word">{{ session['num'] }}</p>
+  		{% endif %}
+  	</section>
+    <form action="/generate" class="center-align">
+    	<button>Generate</button>
+    </form>
+  </body>
+</html>

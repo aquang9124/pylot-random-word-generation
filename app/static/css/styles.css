@@ -1,0 +1,20 @@
+* {
+  font-family: monaco;
+}
+
+.box-display {
+	width: 60%;
+	min-height: 100px;
+	padding: 10px;
+	border: 2px solid black;
+	margin: 10px auto;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.big-word {
+	text-align: center;
+	font-size: 1.3em;
+}
